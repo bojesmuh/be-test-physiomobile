@@ -51,7 +51,7 @@ class PatientController extends Controller
             'id_type'            => 'required',
             'id_no'              => 'required',
             'gender'             => 'required',
-            'dob'                => 'required',
+            'dob'                => 'required|date',
             'address'            => 'required',
             'medium_acquisition' => 'required',
         ]);
@@ -142,7 +142,7 @@ class PatientController extends Controller
             'id_type'            => 'required',
             'id_no'              => 'required',
             'gender'             => 'required',
-            'dob'                => 'required',
+            'dob'                => 'required|date',
             'address'            => 'required',
             'medium_acquisition' => 'required',
         ]);
